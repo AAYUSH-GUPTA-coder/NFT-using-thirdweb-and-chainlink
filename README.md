@@ -1,47 +1,5 @@
-## Getting Started
+We have build a custom ERC-721 NFT Collection using `Thirdweb` and `Chainlink`. Thirdweb ContractKit is used for the ERC-721 token standard, thirdweb deploy is used to deploy our smart contract to mumbai testnetwork and Chainlink Data feed is used to set base price for minting NFT. Basically we will build and deploy a smart contract that allows user to mint NFT. The user have to pay atleast $1 in Matic to mint the NFT. We get the real price conversion using Chainlink Data Feeds.
 
-Create a project using this example:
-
-```bash
-npx thirdweb create --contract --template hardhat-javascript-starter
-```
-
-You can start editing the page by modifying `contracts/Contract.sol`.
-
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) to learn more.
-
-## Building the project
-
-After any changes to the contract, run:
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/thirdweb-deploy/contract-extensions) detected on your contract.
-
-## Deploying Contracts
-
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
-
-```bash
-npm run deploy
-# or
-yarn deploy
-```
-
-## Releasing Contracts
-
-If you want to release a version of your contracts publicly, you can use one of the followings command:
-
-```bash
-npm run release
-# or
-yarn release
-```
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+## Smart Contract Address : 0x296D2ad6Af5da97F3d3977Dccd39CE658823A71c
+## [PolygonScan link](https://mumbai.polygonscan.com/address/0x296D2ad6Af5da97F3d3977Dccd39CE658823A71c)
+## [IPFS LINK for NFT Metadata](https://ipfs.io/ipfs/QmVAUVEmr6pxqZq2KtLtjs52d2c91q5sKKhDZweQeqaH7Z)
